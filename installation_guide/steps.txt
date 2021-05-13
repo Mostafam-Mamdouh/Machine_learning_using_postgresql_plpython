@@ -1,0 +1,9 @@
+# for Python see requirements.txt 
+
+# install plpython3 for postgresql 12
+sudo apt-get install postgresql-plpython3-12
+
+# activate plpython3 in postgres
+CREATE EXTENSION plpython3u;
+
+
